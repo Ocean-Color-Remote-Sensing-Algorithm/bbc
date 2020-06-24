@@ -1,5 +1,5 @@
-function [Rrs412, Rrs443] = blue_band_correction(test_Rrs, test_lambda)
-% Blue-band correction model, v2.0
+function [Rrs412, Rrs443] = blue_band_estimation(test_Rrs, test_lambda)
+% Blue-band estimation model, v2.0
 % Estimate Rrs(412) & Rrs(443) from Rrs(488),Rrs(551) and Rrs(670)
 % INPUTS:
 %       test_Rrs:        matrix of Satellite Rrs spectra at three bands, each row representing an individual spectrum at four visible bands;%       
